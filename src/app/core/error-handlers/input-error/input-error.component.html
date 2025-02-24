@@ -1,0 +1,13 @@
+@if (errorComponent?.isInvalid()) {
+  <div class="invalid-message">
+    Errors:
+    <ol>
+      @for (message of errorComponent?.getErrorMessages(); track message) {
+        <li>
+          {{ message }}
+        </li>
+      }
+    </ol>
+  </div>
+}
+

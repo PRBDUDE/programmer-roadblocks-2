@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@use "base";
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  font-size: 11pt;
+}
+
+body {
+  margin: 0;
+  background-color: var(--prb-body-bg-color);
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}

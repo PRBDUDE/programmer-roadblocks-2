@@ -1,0 +1,25 @@
+@layer primeng {
+  .p-megamenu-root-list {
+    .p-megamenu-item-content {
+      padding: 5px;
+    }
+  }
+
+  .p-megamenu-submenu {
+    .p-megamenu-submenu-label {
+      border-radius: 5px;
+    }
+
+    .p-megamenu-item {
+      .p-megamenu-item-content {
+        :hover {
+          padding: 3px;
+        }
+
+        > a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
